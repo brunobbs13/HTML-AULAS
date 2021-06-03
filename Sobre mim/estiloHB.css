@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, Arial , sans-serif;
+  }
+  
+
+h1{
+    background-color:darkslategrey;
+    font-size: medium;
+    font-family: cursive;
+    text-align: center;
+    text-decoration: wavy;
+    font-size: 30px;
+  }
+
+  #Menu {
+    padding: 10px;
+    display : inline;
+    margin: 2px 250px 0 460px;
+    letter-spacing: 1px;
+    background-color:darkgray;
+    border-radius: 20px 0 20px 0;
+    
+}
+
+
+#Menu ul{
+    
+    display : inline;
+    letter-spacing: 1px;
+    background-color:darkgray;
+    
+}
+    
+
+#Menu ul li{
+    border-radius: 35px 35px 35px 33px;
+    display : inline;
+    margin: 2px 40px 0 5px;
+    letter-spacing: 1px;
+    background-color:darkslategray;
+    box-shadow: 4px 3px dimgray;
+}
+
+#Menu ul li a{
+    
+    text-decoration:none;
+    color: black;
+    display : inline;
+    margin: 2px 20px 0 5px;
+    letter-spacing: 1px;
+    background-color: darkslategray;
+    font-family: cursive;
+}
+
+  
+  nav ul{
+    padding: 4px;
+    display : inline;
+    text-align: center;
+    margin: 2px 40px 0 5px;
+    letter-spacing: 1px;
+    background-color: black;
+    text-decoration: nome;
+    
+  }
+  
+  header{
+    display: block;
+    background-color: darkslategray;
+  }
+
+  main{
+    display: block;
+    background-image: url(Gif_Branco.gif); 
+  }
+
+  h2{
+      text-align: center;
+  }
+
+  .button{
+      margin-left: 740px;
+  }
+
+  .img1{
+      text-align: center;
+     
+      
+  }
+
+  .img2{
+    text-align: center;
+   
+}
+
+.img3{
+    text-align: center;
+}
+
+p{
+    font-family: cursive;
+    font-size: 28px;
+    font-weight: 900;
+    margin-top: 39px;
+}
+
+h4{
+    text-align:center;
+    font-family: cursive;
+}
+
+legend{
+    font-family: cursive;
+}
+
+fieldset{
+    width: 100px;
+    height: 200px;
+    display: block;
+    margin-left: 360px;
+    border-style:outset;
+    border-color: dimgray;
+    background-color: darkslategray;
+}
+
+legend{
+    font-style:oblique;
+}
+
+#formulario input.campo_nome{
+    margin-left: 2px;
+    margin-top: 5px;
+    width: 200px;
+    border-radius:10px 10px 10px 10px;
+    background-color:dimgray;
+}
+
+#formulario input.campo_email{
+    margin-left: 2px;
+    margin-top: 5px;
+    width: 300px;
+    border-radius:10px 10px 10px 10px ;
+    background-color:dimgray;
+}
+
+#formulario input.campo_telefone{
+    margin-left: 2px;
+    margin-top: 5px;
+    width: 150x;
+    border-radius:10px 10px 10px 10px;
+    background-color: dimgray;
+}
+
+textarea{
+    background-color: dimgray;
+    margin-left: 2px;
+    top: 10px;
+    border-radius:10px 10px 10px 10px
+}
+
+::placeholder{
+    color: rgb(65, 65, 65);
+}
+
+button{
+    font-style: oblique ;
+    width: 80px;
+    height: 40px;
+    border-radius:10px 10px 10px 10px;
+    background-color: dimgray;  
+}
+
+
+.pp{
+    background-color: darkslategray;
+}
+
+
+footer{
+   background-color: darkslategray;
+   display: block;
+}
+
+.final{
+    background-color: darkslategrey;
+}

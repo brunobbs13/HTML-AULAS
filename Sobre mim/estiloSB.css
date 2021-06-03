@@ -1,0 +1,179 @@
+*{
+margin: 0;
+padding: 0;
+font-family: system-ui, Arial , sans-serif;
+background-color: darkslategray;
+}
+
+
+h1{
+    background-color:darkslategrey;
+    font-size: medium;
+    font-family: cursive;
+    text-align: center;
+    text-decoration: wavy;
+    font-size: 30px;
+}
+
+
+
+#Menu {
+    padding: 10px;
+    display : inline;
+    margin: 2px 250px 0 460px;
+    letter-spacing: 1px;
+    background-color:darkgray;
+    border-radius: 20px 0 20px 0;
+    
+}
+
+
+#Menu ul{
+    
+    display : inline;
+    letter-spacing: 1px;
+    background-color:darkgray;
+    
+}
+    
+
+#Menu ul li{
+    border-radius: 35px 35px 35px 33px;
+    display : inline;
+    margin: 2px 40px 0 5px;
+    letter-spacing: 1px;
+    background-color:darkslategray;
+    box-shadow: 4px 3px dimgray;
+}
+
+#Menu ul li a{
+    
+    text-decoration:none;
+    color: black;
+    display : inline;
+    margin: 2px 20px 0 5px;
+    letter-spacing: 1px;
+    background-color: darkslategray;
+    font-family: cursive;
+}
+
+
+
+p{
+    text-align: center;
+    font-size: medium;  
+    background-color: dimgray; 
+}
+
+.Meio{
+    background-color: dimgrey;
+}
+
+.imagem1{
+    background-color: dimgray;   
+    text-align: center;
+}
+
+img{
+    border-radius: 29px 29px 29px 29px;  ;
+}
+
+#Nome{
+   font-family: 'Times New Roman', Times, serif;
+    background:dimgrey;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
+
+h4{
+    text-align:center;
+    font-family: cursive;
+}
+
+legend{
+    font-family: cursive;
+}
+
+
+fieldset{
+    width: 100px;
+    height: 200px;
+    display:block;
+    position: fixed;
+    margin-left: 360px;
+    border-style:outset;
+    border-color: dimgray;
+}
+
+legend{
+    font-style:oblique;
+}
+
+#formulario input.campo_nome{
+    margin-left: 2px;
+    margin-top: 5px;
+    width: 200px;
+    border-radius:10px 10px 10px 10px;
+    background-color:dimgray;
+}
+
+#formulario input.campo_email{
+    margin-left: 2px;
+    margin-top: 5px;
+    width: 300px;
+    border-radius:10px 10px 10px 10px ;
+    background-color:dimgray;
+}
+
+#formulario input.campo_telefone{
+    margin-left: 2px;
+    margin-top: 5px;
+    width: 150x;
+    border-radius:10px 10px 10px 10px;
+    background-color: dimgray;
+}
+
+textarea{
+    background-color: dimgray;
+    margin-left: 2px;
+    top: 10px;
+    border-radius:10px 10px 10px 10px
+}
+
+::placeholder{
+    color: rgb(65, 65, 65);
+}
+
+button{
+    font-style: oblique ;
+    width: 80px;
+    height: 40px;
+    border-radius:10px 10px 10px 10px;
+    background-color: dimgray;  
+}
+
+
+.RedesSociais{
+    text-align: right;
+    display:grid;
+
+}
+
+.pp{
+    background-color: darkslategray;
+}
+
+
+footer{
+    position: fixed;
+    text-align:left;
+}
+
+
+
+
+
